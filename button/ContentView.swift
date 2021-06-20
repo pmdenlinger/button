@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button(action: {
+//         ToDo Action
+        })
+        
+//        View
+        HStack {
+            Image(systemName: "suit.heart.fill")
+            Text("Love")
+        }
+        
+        
     }
 }
 
